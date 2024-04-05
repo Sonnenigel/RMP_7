@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/menuFragment">
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.practice_7.UILayer.MenuFragment"
+        android:label="menuFragment"
+        tools:layout="@layout/fragment_menu">
+        <action
+            android:id="@+id/action_menuFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_woolFragment"
+            app:destination="@id/woolFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_pawFragment"
+            app:destination="@id/pawFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_tailFragment"
+            app:destination="@id/tailFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/pawFragment"
+        android:name="com.example.practice_7.UILayer.PawFragment"
+        android:label="PawFragment"
+        tools:layout="@layout/fragment_paw">
+        <action
+            android:id="@+id/action_pawFragment_to_pawDetailsFragment2"
+            app:destination="@id/pawDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.example.practice_7.UILayer.ResultFragment"
+        android:label="ResultFragment"
+        tools:layout="@layout/fragment_result"/>
+
+    <fragment
+        android:id="@+id/tailFragment"
+        android:name="com.example.practice_7.UILayer.TailFragment"
+        android:label="TailFragment"
+        tools:layout="@layout/fragment_tail">
+        <action
+            android:id="@+id/action_tailFragment_to_woolDetailsFragment"
+            app:destination="@id/woolDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pawDetailsFragment"
+        android:name="com.example.practice_7.UILayer.PawDetailsFragment"
+        android:label="PawDetailsFragment"
+        tools:layout="@layout/fragment_paw_details">
+        <action
+            android:id="@+id/action_pawDetailsFragment_to_menuFragment2"
+            app:destination="@id/menuFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/woolDetailsFragment"
+        android:name="com.example.practice_7.UILayer.WoolDetailsFragment"
+        android:label="WoolDetailsFragment"
+        tools:layout="@layout/fragment_wool_details">
+        <action
+            android:id="@+id/action_woolDetailsFragment_to_menuFragment2"
+            app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/woolFragment"
+        android:name="com.example.practice_7.UILayer.WoolFragment"
+        android:label="WoolFragment"
+        tools:layout="@layout/fragment_wool">
+        <action
+            android:id="@+id/action_woolFragment_to_tailDetailsFragment2"
+            app:destination="@id/tailDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tailDetailsFragment"
+        android:name="com.example.practice_7.UILayer.TailDetailsFragment"
+        android:label="TailDetailsFragment"
+        tools:layout="@layout/fragment_tail_details">
+        <action
+            android:id="@+id/action_tailDetailsFragment_to_menuFragment2"
+            app:destination="@id/menuFragment" />
+    </fragment>
+</navigation>

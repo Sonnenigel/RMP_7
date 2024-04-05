@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    android:gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TextTitleMenu"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="30dp"/>
+
+    <ImageView
+        android:id="@+id/doge"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:src="@drawable/short_short_short"/>
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:gravity=""
+        android:textSize="25dp"
+        android:textColor="@color/black"/>
+
+
+</LinearLayout>

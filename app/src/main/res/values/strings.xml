@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">practice_7</string>
+    <string name="TextTitleMenu">Выбор собакена</string>
+    <string name="TextTitleFaw">Выбор лап</string>
+    <string name="TextTitleWool">Выбор шерсти</string>
+    <string name="TextTitleTail">Выбор хвоста</string>
+    <string name="TextFaw">Лапы</string>
+    <string name="TextWool">Шерсть</string>
+    <string name="TextTail">Хвост</string>
+    <string name="TextFawType1">Породы собак с короткими лапами</string>
+    <string name="TextWoolType1">Породы собак с короткой шерстью</string>
+    <string name="TextTailType1">Породы собак с коротким хвостом</string>
+    <string name="TextFawType2">Породы собак с длинными лапами</string>
+    <string name="TextWoolType2">Породы собак с длинной шерстью</string>
+    <string name="TextTailType2">Породы собак с средним хвостом</string>
+    <string name="TextTailType3">Породы собак с длинным хвостом</string>
+    <string name="ButtonDog">Посмотрим результат</string>
+    <string name="ButtonSelect">Выбрать</string>
+    <string name="TextFawVar1">Той терьер, Такса, Бассет, Корги, Скотч-терьер, Пекинес</string>
+    <string name="TextFawVar2">Доберман, Лабрадор, Дог, Русский терьер, Пудель, Немецкая овчарка</string>
+    <string name="TextWoolVar1">Той терьер, Такса, Бассет, Доберман, Лабрадор, Дог</string>
+    <string name="TextWoolVar2">Корги, Скотч-терьер, Пекинес, Русский терьер, Пудель, Немецкая овчарка</string>
+    <string name="TextTailVar1">Той терьер, Корги, Доберман, Русский терьер</string>
+    <string name="TextTailVar2">Такса, Скотч-терьер, Лабрадор, Пудель</string>
+    <string name="TextTailVar3">Бассет, Пекинес, Дог, Немецкая овчарка</string>
+</resources>
